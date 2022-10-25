@@ -122,6 +122,7 @@ async def alive(client: Client, e: Message):
         Alive_msg += f"► Sᴜᴘᴘᴏʀᴛ : [Jᴏɪɴ.](https://t.me/Superior_Support) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(
+             "https://telegra.ph/file/0a56ebf7a7600e4280ad8.jpg"
         photo=ALIVE_PIC,
         caption=Alive_msg,
         reply_markup=InlineKeyboardMarkup(
